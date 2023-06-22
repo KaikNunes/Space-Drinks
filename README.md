@@ -1,6 +1,6 @@
 # Space-Drinks
 
-![Descrição da imagem](./img-space-drinks)
+![Logo Space Drinks](./img-space-drinks.png)
 
 
 Space Drinks é um projeto de distribuidora de bebidas que oferece uma experiência única aos seus clientes. Além de oferecer uma ampla variedade de bebidas de alta qualidade, a empresa também se destaca por proporcionar um ambiente descontraído e divertido.
