@@ -1,4 +1,4 @@
-# Space Drinks
+# Space Drinks 🚀
 
 <img src="./img-space-drinks.png" alt="Logo Space Drinks" width="70px">
 
