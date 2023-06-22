@@ -6,4 +6,4 @@ O espaço conta com uma área de jogos que inclui sinuca, dardos e outros jogos 
 
 Além disso, para satisfazer o paladar de todos, oferece deliciosos espetos preparados com ingredientes frescos e selecionados. A equipe de chefs talentosos cria combinações saborosas para garantir uma experiência gastronômica completa.
 
-Agradecemos pelo seu interesse em nosso projeto e esperamos que você aproveite sua visita ao Space Drinks!
+Agradecemos pelo seu interesse em nosso projeto e esperamos que você aproveite sua visita a Space Drinks!
