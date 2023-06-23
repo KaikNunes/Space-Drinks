@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -16,6 +16,40 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
+
+  <!-- Modal -->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <h3>Você tem mais de 🔞 anos?</h3>
+      <div class="modal-buttons">
+        <button class = "btn botoes-modal" id="yesBtn">Sim</button>
+        <button class = "btn botoes-modal" id="noBtn">Não</button>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    // Quando a página é carregada
+    window.onload = function() {
+      var modal = document.getElementById("myModal");
+      var yesBtn = document.getElementById("yesBtn");
+      var noBtn = document.getElementById("noBtn");
+
+      // Exibir o modal
+      modal.style.display = "flex";
+
+      // Quando o botão "Sim" é clicado, fechar o modal e permitir o scroll no site
+      yesBtn.onclick = function() {
+        modal.style.display = "none";
+        document.body.style.overflow = "auto";
+      }
+
+      // Quando o botão "Não" é clicado, redirecionar para o google.com
+      noBtn.onclick = function() {
+        window.location.href = "https://www.google.com";
+      }
+    }
+  </script>
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container px-4 px-lg-5">
@@ -26,9 +60,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contatos">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">Início</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contatos">Contato</a></li>
                     </ul>
                 </div>
             </div>
@@ -64,13 +98,13 @@
             <div class="container px-4 px-lg-5">
                 <!-- Project One Row-->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="..." /></div>
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/sinuca.png" alt="..." /></div>
                     <div class="col-lg-6">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
+                        <div class="text-center h-100 project">
+                            <div class="bg-black d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Misty</h4>
-                                    <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                                    <h4 class="text-white">Diversão Garantida</h4>
+                                    <p class="mb text-white">O espaço de jogos da Space Drinks é um ambiente vibrante e descontraído, projetado para proporcionar diversão e entretenimento aos nossos clientes. Nele, você encontrará uma variedade de opções de jogos, com destaque para a sinuca, uma modalidade clássica e adorada por muitos.</p>
                                 </div>
                             </div>
                         </div>
@@ -78,13 +112,28 @@
                 </div>
                 <!-- Project Two Row-->
                 <div id="projeto-segundo" class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/ambiente.png" alt="..." /></div>
                     <div class="col-lg-6 order-lg-first">
+                        <div class="text-center h-100 project">
+                            <div class="bg-black d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">Nosso Ambiente</h4>
+                                    <p class="mb-0 text-white">Ao entrar no Space Drinks, você será recebido por uma decoração moderna e elegante, com um toque de estilo único. Nossas áreas de estar são confortáveis e convidativas, oferecendo um local ideal para conversas animadas, encontros com amigos ou até mesmo para relaxar sozinho enquanto aproveita sua bebida preferida.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 Row-->
+                <div id="projeto-segundo" class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/img-cardapio.png" alt="..." /></div>
+                    <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Mountains</h4>
-                                    <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well!</p>
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">Cardápio</h4>
+                                    <p class="mb-0 text-white">Nosso cardápio no Space Drinks foi cuidadosamente elaborado para atender aos paladares mais exigentes e proporcionar uma experiência gastronômica completa aos nossos clientes. Com uma combinação de pratos saborosos e uma variedade de opções de bebidas, garantimos que você encontrará algo que agrade ao seu gosto.</p>
+                                    <a class="btn btn-cardapio" target="_blank" href="https://drive.google.com/file/d/1A7RAuoxQkuzZHpAEfq4U32BxAD_3wJ0-/view">ABRA AQUI</a>
                                 </div>
                             </div>
                         </div>
@@ -144,19 +193,9 @@
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Address</h4>
+                                <h4 class="text-uppercase m-0">Endereço</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-envelope text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Email</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
+                                <div class="small text-black">Rua Henrique Badaro Portugal, 143 - Buritis</div>
                             </div>
                         </div>
                     </div>
@@ -164,17 +203,27 @@
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Phone</h4>
+                                <h4 class="text-uppercase m-0">Telefone</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">+1 (555) 902-8832</div>
+                                <div class="small text-black">(31) 3333-1000</div>
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-envelope text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">E-mail</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black"><a href="#!">distribuidora.spacedrinks@gmail.com</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
                 <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="#!"><i class="fa-brands fa-instagram"></i></a>
-                    <a class="mx-2" href="#!"><i class="fa-brands fa-youtube"></i></a>
-                    <!-- <a class="mx-2" href="#!"><i class="fab fa-github"></i></a> -->
+                    <a class="mx-2" href="https://instagram.com/spacedrinks2022?igshid=MzRlODBiNWFlZA=="><i class="fa-brands fa-instagram"></i></a>
+                    <a class="mx-2" href="https://www.youtube.com/channel/UCSFq5h-Xb33zFOhAt4WFuZg"><i class="fa-brands fa-youtube"></i></a>
                 </div>
             </div>
         </section>
