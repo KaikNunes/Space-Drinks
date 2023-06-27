@@ -1938,6 +1938,12 @@ progress {
   height: 40vh;
 }
 
+.footer{
+  color: #fff !important;
+  background-color: RGBA(0, 0, 0, var(--bs-bg-opacity, 1)) !important;
+}
+
+
 @media (max-width: 575.98px) {
   .table-responsive-sm {
     overflow-x: auto;
@@ -3426,6 +3432,10 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 1400px) {
+  .txt-copy{
+    margin-top: 7vh;
+  }
+
   .dropdown-menu-xxl-start {
     --bs-position: start;
   }
