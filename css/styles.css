@@ -1934,9 +1934,9 @@ progress {
   -webkit-overflow-scrolling: touch;
 }
 
-.bg-black{
+/* .bg-black{
   height: 40vh;
-}
+} */
 
 .footer{
   color: #fff !important;
@@ -3432,9 +3432,7 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 1400px) {
-  .txt-copy{
-    margin-top: 7vh;
-  }
+
 
   .dropdown-menu-xxl-start {
     --bs-position: start;
@@ -11314,4 +11312,20 @@ body {
   .btn-primary{
     margin-top: 500px;
   }
+}
+
+@media (max-width: 1400px) {
+
+  .bg-black{
+    height: 48.5vh;
+  }
+
+  .btn-cardapio {
+    margin-top: 10px;
+  }
+
+  .txt-copy{
+    margin-top: 7vh;
+  }
+
 }
