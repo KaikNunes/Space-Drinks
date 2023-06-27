@@ -11317,7 +11317,7 @@ body {
 @media (max-width: 1400px) {
 
   .bg-black{
-    height: 48.5vh;
+    height: 373px;
   }
 
   .btn-cardapio {
@@ -11325,7 +11325,7 @@ body {
   }
 
   .txt-copy{
-    margin-top: 7vh;
+    margin-top: 10px;
   }
 
 }
