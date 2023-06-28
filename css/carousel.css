@@ -1,0 +1,40 @@
+#carouselExampleIndicators{
+    height: 900px;
+}
+
+/* Estilo personalizado para o carousel */
+.carousel-item img {
+    height: 900px   ;
+    /* Define a altura das imagens do carousel */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    /* Altera as setas de navegação */
+    /* background-color: #333; */
+    /* Cor de fundo */
+    color: #fff;
+    /* Cor do ícone */
+    width: 30px;
+    /* Largura */
+    height: 30px;
+    /* Altura */
+    border-radius: 50%;
+    /* Formato arredondado */
+    font-size: 30px;
+    /* Tamanho do ícone */
+}
+
+.carousel-control-prev {
+    left: -50px;
+    /* Posiciona a seta esquerda à esquerda */
+}
+
+.carousel-control-next {
+    right: -50px;
+    /* Posiciona a seta direita à direita */
+}
+
+.carousel-item {
+    transition-duration: 0ms !important;
+}
