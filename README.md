@@ -2,7 +2,7 @@
 
 > Status: Developing... 🚧
 
-### Sobre
+## Sobre
 Space Drinks é um projeto de distribuidora de bebidas que oferece uma experiência única aos seus clientes. Além de oferecer uma ampla variedade de bebidas de alta qualidade, a empresa também se destaca por proporcionar um ambiente descontraído e divertido.
 
 O espaço conta com uma área de jogos que inclui sinuca, dardos e outros jogos de mesa, criando um local perfeito para os amantes de entretenimento e competição. Oferecendo aos clientes a oportunidade de relaxar e se divertir enquanto desfrutam de suas bebidas favoritas.
@@ -11,4 +11,4 @@ Além disso, para satisfazer o paladar de todos, oferece deliciosos espetos prep
 
 Agradecemos pelo seu interesse em nosso projeto e esperamos que você aproveite sua visita a Space Drinks!
 
-### Técnologias utilizadas
+## Técnologias utilizadas
