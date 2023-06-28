@@ -20,6 +20,8 @@ O projeto Space Drinks utiliza uma variedade de tecnologias para garantir um des
 
 * __CSS3:__ O CSS3 foi usado para estilizar os elementos HTML, proporcionando um design atraente, cores, fontes, layouts e animações. Trabalhando em conjunto com o HTML para garantir uma aparência coesa e visualmente agradável.
 
+* __JavaScript:__ A linguagem de programação JavaScript foi usada para adicionar interatividade e funcionalidades dinâmicas ao projeto. Com o JavaScript, foi possível criar animações, manipular elementos da página.
+
 * __Git:__ O Git é um sistema de controle de versão utilizado para gerenciar o código-fonte do projeto. O que nos permitiu rastrear alterações, colaborar com outros desenvolvedores e facilitar o processo de implantação e atualização do software.
 
 * __GitHub:__ O GitHub foi utilizado como plataforma de hospedagem de código-fonte, onde podemos armazenar e compartilhar nosso projeto. Oferecendo recursos para controle de versão, colaboração, gerenciamento de problemas e implantação contínua.
