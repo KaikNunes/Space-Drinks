@@ -14,14 +14,14 @@ Agradecemos pelo seu interesse em nosso projeto e esperamos que você aproveite 
 ## Técnologias Utilizadas
 O projeto Space Drinks utiliza uma variedade de tecnologias para garantir um desenvolvimento eficiente e uma experiência de usuário aprimorada. Aqui estão algumas das principais tecnologias utilizadas:
 
-*Bootstrap: Foi feito o uso do framework front-end Bootstrap para criar uma interface responsiva e moderna. O Bootstrap oferece um conjunto abrangente de componentes, estilos e recursos que facilitam a criação de um design atraente e compatível com dispositivos móveis.
+* Bootstrap: Foi feito o uso do framework front-end Bootstrap para criar uma interface responsiva e moderna. O Bootstrap oferece um conjunto abrangente de componentes, estilos e recursos que facilitam a criação de um design atraente e compatível com dispositivos móveis.
 
-*HTML5: A linguagem de marcação HTML5 foi usada para estruturar e apresentar o conteúdo do site. Fornecendo tags semânticas e recursos avançados que permitem criar uma estrutura organizada e acessível.
+* HTML5: A linguagem de marcação HTML5 foi usada para estruturar e apresentar o conteúdo do site. Fornecendo tags semânticas e recursos avançados que permitem criar uma estrutura organizada e acessível.
 
-*CSS3: O CSS3 foi usado para estilizar os elementos HTML, proporcionando um design atraente, cores, fontes, layouts e animações. Trabalhando em conjunto com o HTML para garantir uma aparência coesa e visualmente agradável.
+* CSS3: O CSS3 foi usado para estilizar os elementos HTML, proporcionando um design atraente, cores, fontes, layouts e animações. Trabalhando em conjunto com o HTML para garantir uma aparência coesa e visualmente agradável.
 
-*Git: O Git é um sistema de controle de versão utilizado para gerenciar o código-fonte do projeto. O que nos permitiu rastrear alterações, colaborar com outros desenvolvedores e facilitar o processo de implantação e atualização do software.
+* Git: O Git é um sistema de controle de versão utilizado para gerenciar o código-fonte do projeto. O que nos permitiu rastrear alterações, colaborar com outros desenvolvedores e facilitar o processo de implantação e atualização do software.
 
-*GitHub: O GitHub foi utilizado como plataforma de hospedagem de código-fonte, onde podemos armazenar e compartilhar nosso projeto. Oferecendo recursos para controle de versão, colaboração, gerenciamento de problemas e implantação contínua.
+* GitHub: O GitHub foi utilizado como plataforma de hospedagem de código-fonte, onde podemos armazenar e compartilhar nosso projeto. Oferecendo recursos para controle de versão, colaboração, gerenciamento de problemas e implantação contínua.
 
 
