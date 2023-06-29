@@ -11075,6 +11075,8 @@ body {
   }
 }
 
+
+
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
@@ -11334,4 +11336,8 @@ body {
   .btn-primary{
     margin-top: 500px;
   }
+}
+
+html, body {
+  overflow-x: hidden;
 }
