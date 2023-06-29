@@ -11,7 +11,7 @@ Além disso, para satisfazer o paladar de todos, oferece deliciosos espetos prep
 
 Agradecemos pelo seu interesse em nosso projeto e esperamos que você aproveite sua visita a Space Drinks!
 
-## Técnologias Utilizadas
+## Tecnologias Utilizadas
 O projeto Space Drinks utiliza uma variedade de tecnologias para garantir um desenvolvimento eficiente e uma experiência de usuário aprimorada. Aqui estão algumas das principais tecnologias utilizadas:
 
 * __Bootstrap:__ Foi feito o uso do framework front-end Bootstrap para criar uma interface responsiva e moderna. O Bootstrap oferece um conjunto abrangente de componentes, estilos e recursos que facilitam a criação de um design atraente e compatível com dispositivos móveis.
